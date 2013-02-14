@@ -18,3 +18,11 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+
+#Latex files
+*.aux
+*.dvi
+*.log
+*.ps
+*.blg
