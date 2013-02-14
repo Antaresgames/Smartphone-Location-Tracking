@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{Biswas_2010_6819}
+{\sc Biswas, J., and Veloso, M.}
+\newblock Wifi localization and navigation for autonomous indoor mobile robots.
+\newblock In {\em Robotics and Automation (ICRA), 2010 IEEE International
+  Conference on\/} (May 2010), pp.~4379--4384.
+
+\bibitem{Jackson:2006:LTT:1376148.1376210}
+{\sc Jackson, J.~D., Callahan, D.~W., and Wang, P.~F.}
+\newblock Location tracking of test vehicles using accelerometers.
+\newblock In {\em Proceedings of the 5th WSEAS International Conference on
+  Circuits, Systems, Electronics, Control \& Signal Processing\/} (Stevens
+  Point, Wisconsin, USA, 2006), CSECS'06, World Scientific and Engineering
+  Academy and Society (WSEAS), pp.~333--336.
+
+\bibitem{Liu:2012:PLW:2348543.2348581}
+{\sc Liu, H., Gan, Y., Yang, J., Sidhom, S., Wang, Y., Chen, Y., and Ye, F.}
+\newblock Push the limit of wifi based localization for smartphones.
+\newblock In {\em Proceedings of the 18th annual international conference on
+  Mobile computing and networking\/} (New York, NY, USA, 2012), Mobicom '12,
+  ACM, pp.~305--316.
+
+\bibitem{unpublished-minimal}
+{\sc Reuveny, S., and Zadik, M.}
+\newblock 3d motion tracking with gyroscope and accelerometer.
+\newblock a.
+
+\end{thebibliography}

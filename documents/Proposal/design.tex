@@ -1,0 +1,9 @@
+\section{Design}
+\label{sec:design}
+
+Our project will be implemented as an Android application running on Android version 4.1. 
+It will use the accelerometer in combination with the gyroscope and magnetic compass in order to track the change in position of the user.
+Because of the inherent error in accelerometer measurements we need a way to quickly reorient the position at certain locations. 
+To do this we will look for WiFi access points that we know the location of and use those as anchor points to correct the estimated position. 
+Because this method only works if we know the location of WiFi access points we also intend to implement a learning method that will use the GPS device in the phone to learn the physical location of unknown access points, which it will remember for later when the GPS is turned off. 
+While the use of full WiFi localization methods could be used to provide more accurate tracking results when near an array of WiFi access points, we opt instead for a simpler system of using simple anchor points in order to reduce complexity of the algorithm and offer faster learning. 
