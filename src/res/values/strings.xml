@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">Location Tracking</string>
-    <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="xString">0x</string>
+    <string name="yString">0y</string>
+    <string name="zString">0z</string>
 
 </resources>
