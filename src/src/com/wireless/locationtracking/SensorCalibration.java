@@ -28,7 +28,10 @@ public class SensorCalibration implements SensorEventListener  {
 
 	@Override
 	public void onSensorChanged(SensorEvent event) {
-		// TODO Auto-generated method stub
+
+		
+		if (counter>=sampleSize) return;
+		
 		for (int i = 0; i<3; ++i)
 		{
 			means[i] += event.values[i];

@@ -152,4 +152,78 @@
         android:text="@string/zString"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Export DB" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/accelZ"
+        android:text="Flush DB" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/accelZ"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="33dp"
+        android:text="Azimuth:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/azimuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView07"
+        android:layout_toLeftOf="@+id/velZ"
+        android:text="0az"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/pitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView08"
+        android:layout_toLeftOf="@+id/velZ"
+        android:text="0pi"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView08"
+        android:layout_alignBottom="@+id/TextView08"
+        android:layout_toLeftOf="@+id/velZ"
+        android:text="0ro"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/TextView06"
+        android:layout_below="@+id/TextView06"
+        android:layout_marginTop="16dp"
+        android:text="Pitch:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/TextView07"
+        android:layout_below="@+id/TextView07"
+        android:layout_marginTop="16dp"
+        android:text="Roll:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
 </RelativeLayout>
